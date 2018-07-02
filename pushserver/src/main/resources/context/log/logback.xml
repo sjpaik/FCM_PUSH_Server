@@ -1,0 +1,53 @@
+<included>
+
+    <logger name="jdbc.connection" additivity="false">
+        <level value="error" /> 
+        <appender-ref ref="console" />
+        <appender-ref ref="service" />
+        <appender-ref ref="error" />
+    </logger>
+    <logger name="jdbc.resultset" additivity="false">
+        <level value="off" />
+    </logger>
+    <logger name="jdbc.resultsettable" additivity="false">
+        <level value="info" /> 
+        <appender-ref ref="console" />
+        <appender-ref ref="service" />
+        <appender-ref ref="error" />
+    </logger>
+    <logger name="jdbc.audit" additivity="false">
+        <level value="error" /> 
+        <appender-ref ref="console" />
+        <appender-ref ref="service" />
+        <appender-ref ref="error" />
+    </logger>
+    <logger name="jdbc.sqlonly" additivity="false">
+        <level value="info" /> 
+        <appender-ref ref="console" />
+        <appender-ref ref="service" />
+        <appender-ref ref="error" />
+    </logger> 
+    <logger name="jdbc.sqltiming" additivity="false">
+        <level value="error" /> 
+        <appender-ref ref="console" />
+        <appender-ref ref="service" />
+        <appender-ref ref="error" />
+    </logger>
+    <logger name="com.sunseng.pushserver.system.crontab.scheduler" additivity="false">
+        <level value="info" />
+        <appender-ref ref="console" />
+        <appender-ref ref="scheduler" />
+    </logger>
+    <logger name="org.springframework.web.servlet.handler" additivity="false">
+        <level value="debug" />
+        <appender-ref ref="console" />
+        <appender-ref ref="service" />
+        <appender-ref ref="error" />
+    </logger>
+    <root>
+        <level value="info" />
+        <appender-ref ref="console" />
+        <appender-ref ref="error" />
+    </root>
+    
+</included>

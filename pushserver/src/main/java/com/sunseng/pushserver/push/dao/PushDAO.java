@@ -11,7 +11,7 @@ import com.sunseng.pushserver.push.model.PushSendDetailModel;
 public interface PushDAO {
 	
 	/**
-	 * 푸시 발송 리스트 조회 (최대 1000건)
+	 * 푸시 발송 리스트 조회
 	 * @return List<PushSendDetailModel>
 	 */
 	public List<PushSendDetailModel> selectSendPushList();

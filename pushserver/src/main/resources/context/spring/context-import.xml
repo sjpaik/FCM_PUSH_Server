@@ -10,5 +10,6 @@
     <import resource="classpath*:context/spring/context-application.xml" />
     <import resource="classpath*:context/spring/context-properties.xml" />
     <import resource="classpath*:context/spring/context-datasource.xml" />
+    <import resource="classpath*:context/spring/context-mapper.xml" />
     
 </beans>
